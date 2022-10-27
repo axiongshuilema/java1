@@ -3,7 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example</groupId>
   <artifactId>java1</artifactId>
-  <version>1.0-20221027SNAPSHOT</version>
-  <name>Archetype - java1</name>
+    <packaging>pom</packaging>
+    <version>1.0-20221027SNAPSHOT</version>
+    <modules>
+        <module>java-foundatinal</module>
+    </modules>
+    <name>Archetype - java1</name>
   <url>http://maven.apache.org</url>
 </project>
